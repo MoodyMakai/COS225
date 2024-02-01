@@ -54,6 +54,30 @@ public class Week1 {
     // for (int i = 0; i<10; i ++){
         //repeat 10 times
     //}
+    //To build a project, one must first build a class
+    //A class is a blueprint defining a new type
+        // objects are instants of this class
+        //when run, your projects is an object that is an instantiation of said class
+    //Every item in an array must be contigous
+    public static void main(String[] args){
+        int[] arrayOfInts = new int[5];
+        System.out.println(arrayOfInts.length);
+
+    }
+    //arrays are much more effecient than Python lists, due to being stored in the cache
+    //Java also contains ArrayLists, this has all the same methods as python lists
+    //ArrayList<int> ListName = new ArrayList<int>();
+    // generics <> are a promise that our list will ontain this type
+    //scanners works like input in python
+    //someWork = myScanner.nextLine();
+    // File I/O
+    // Scanner fileScanner = newScanner(new File("someTextFile.txt"))
+    //file reading:
+    //while (fileScan.hasNext()){
+        //System.out.println(filescan.nextLine)
+    //}
+    //
+    
     }
 
 
